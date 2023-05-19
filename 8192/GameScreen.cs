@@ -19,7 +19,9 @@ namespace _8192
         Font font = new Font("Consolas", 22);
         SolidBrush black = new SolidBrush(Color.Black);
         public static List<Color> ballColours = new List<Color> { Color.FromArgb(180, 180, 180), Color.FromArgb(200, 180, 160), Color.FromArgb(250, 120, 100), Color.FromArgb(230, 70, 0), 
-            Color.FromArgb(235, 60, 50), Color.FromArgb(255, 0, 0), Color.FromArgb(250, 230, 150), Color.FromArgb(250, 200, 100), Color.FromArgb(255, 180, 50), Color.FromArgb(255, 160, 0), Color.FromArgb(255, 100, 0) };
+            Color.FromArgb(235, 60, 50), Color.FromArgb(255, 0, 0), Color.FromArgb(250, 230, 150), Color.FromArgb(250, 200, 100), Color.FromArgb(255, 180, 50), Color.FromArgb(255, 160, 0), Color.FromArgb(255, 100, 0),
+            Color.FromArgb(100, 50, 255), Color.FromArgb(175, 60, 255), Color.FromArgb(200, 130, 255), Color.FromArgb(230, 100, 255), Color.FromArgb(150, 200, 150), Color.FromArgb(0, 155, 50), Color.FromArgb(0, 100, 120),
+            Color.FromArgb(20, 25, 200) };
 
     public static List<Ball> balls = new List<Ball>();
 

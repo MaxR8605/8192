@@ -130,11 +130,12 @@ namespace _8192
                         b.id = 0;
                         break;
                     }
-                    else
+                    else if (value - b.value < 4)
                     {
                         x -= 2 * xSpeed;
                         y -= 2 * ySpeed;
                         direction += 9000;
+                        // Make number balls not go inside other ones
                     }
                 }
             }
